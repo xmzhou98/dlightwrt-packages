@@ -1,19 +1,20 @@
 #
 # Copyright (C) 2018 Dengfeng Liu
-#
+# Modified  by XiaoMingZhou 2024/12/20
 # This is free software, licensed under the GNU General Public License v3.
 # See /LICENSE for more information.
 #
+# 
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=apfree-wifidog
-PKG_VERSION:=7.10.2082
+PKG_NAME:=dlight-authdogx
+PKG_VERSION:=1.1.1
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/liudf0716/$(PKG_NAME)/tar.gz/$(PKG_VERSION)?
-PKG_HASH:=2b7b22221852732f2511e991bef5d135132a8cc50f3d612eaee77d74c51bc501
+PKG_SOURCE_URL:=https://github.com/xmzhou98/$(PKG_NAME)/archive/refs/tags/
+PKG_HASH:=26788190915fabdb4b5f219d12939c2aa85a294c5afb2cf7e53fcbdec6a5ff25
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
 PKG_MAINTAINER:=Dengfeng Liu <liudf0716@gmail.com>
